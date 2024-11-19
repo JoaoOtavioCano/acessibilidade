@@ -6,6 +6,7 @@ import InputMsg from "../../components/InputMsg";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import VLibras from 'vlibras-nextjs';
 
 const SignUp = () => {
     const [emailSpan, setEmailSpan] = useState(false);
@@ -153,6 +154,7 @@ const SignUp = () => {
                 </div>
             </div>
             <Footer />
+            <VLibras forceOnload />
         </div>
     );
 }
