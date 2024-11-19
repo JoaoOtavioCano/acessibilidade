@@ -20,10 +20,10 @@ export default function Header() {
 				<button onClick={() => {open ? setOpen(false) : setOpen(true)}}>
 					<Image src="/botaoAcessibilidade.svg" alt="Educk logo" height={56} width={56}  />
 				</button>
-				<Link href="/">
+				<Link href="/signup">
 					<button className={"py-2 px-4 inline-flex rounded-full font-semibold py-5 items-center justify-center border-cinza border-2 bg-white hover:bg-claro transition dark:bg-black dark:text-white"} >cadastre-se</button>
 				</Link>
-				<Link href="/signin">
+				<Link href="">
 					<button className={"py-2 px-4 inline-flex rounded-full font-semibold py-5 items-center justify-center bg-educk text-white hover:bg-educkdark transition"}>login</button>
 				</Link>
 			</Navbar>

@@ -1,5 +1,5 @@
 'use client'
-import Card from "../components/Card"
+import Card from "../../components/Card"
 import Image from "next/image";
 import VLibras from 'vlibras-nextjs';
 
