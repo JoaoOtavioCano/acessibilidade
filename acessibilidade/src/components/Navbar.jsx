@@ -26,7 +26,7 @@ const Navbar = ({ children }) => {
 			</button>
 			<nav className={`absolute flex items-center h-screen top-0 bottom-0
 				shadow-lg shadow-zinc-400 p-4 transition-all bg-white sm:static
-				sm:flex sm:shadow-none sm:h-auto ${isOpen ? "right-0" : "right-[-100%]"}`}>
+				sm:flex sm:shadow-none sm:h-auto dark:bg-black dark:shadow-black ${isOpen ? "right-0" : "right-[-100%]"}`}>
 				<ul className="flex flex-col items-center gap-4 sm:flex-row">
 					{React.Children.map(children, child => (
 						<li onClick={() => setIsOpen(false)}>
