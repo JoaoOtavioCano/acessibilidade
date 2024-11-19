@@ -1,5 +1,8 @@
+'use client'
 import Card from "../components/Card"
 import Image from "next/image";
+import VLibras from 'vlibras-nextjs';
+
 
 const Courses = ({imagePath, title}) => {
   return (
@@ -71,6 +74,7 @@ export default function Home() {
       </section>
       <section className="mt-12 flex w-full items-center justify-center">  
       </section>
+      <VLibras forceOnload />
 	</main>
   );
 }
